@@ -1,0 +1,41 @@
+header {
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: white;
+  max-width: 1000px;
+  min-width: 600px;
+  height: 60px;
+  width: 100%;
+
+  .logo {
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    color: #1da1f2;
+  }
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  li {
+    display: flex;
+    align-items: center;
+  }
+
+  a, input[type="submit"] {
+    height: 100%;
+    padding: 20px;
+    color: rgb(101, 119, 134);
+  }
+}
